@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <title>James Ritchey Portfolio</title>
-        <h1>James Ritchey</h1>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
 
+    <header>
+        <div class="heading">
+            <h1>James Ritchey</h1>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>  
+        </div>
+        
+    </header>
+
     <body>
-        <h2>Contact</h2>
-        <hr>
-        <form action="/action_page.php">
-            <h3>Name</h3>
-            <input type="text" name="name" placeholder="John Smith">
+        <div class="main_container">
+            <div class="content">
+                <h2>Contact</h2>
+                <form action="/action_page.php">
+                    <h3>Name</h3>
+                    <input type="text" name="name" placeholder="John Smith">
 
-            <h3>Email</h3>
-            <input type="email" name="email" placeholder="example@email.com">
+                    <h3>Email</h3>
+                    <input type="email" name="email" placeholder="example@email.com">
 
-            <h3>Message</h3>
-            <input type="text" name="message">
+                    <h3>Message</h3>
+                    <input type="text" name="message">
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>     
+            </div>
+               
+        </div>
 
-        </form>
     </body>
 
     <footer>
