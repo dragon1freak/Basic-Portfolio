@@ -6,7 +6,7 @@
     margin-bottom: 2em;
     background-color: #ffffff;
     width: 960px;
-
+    overflow: hidden;
 }
 
 .content {
@@ -47,6 +47,9 @@ footer {
     background-color: #666666;
     min-width: 960px;
     margin-top: 2em;
+    height: 100px;
+    position: relative;
+    bottom: 0;
 }
 
 footer p {
@@ -56,17 +59,20 @@ footer p {
     padding-top: 2em;
     padding-bottom: 0.2em;
     margin-bottom: 0%;
+    float: bottom;
 }
 
 body {
     background-image: url("../images/background.png");
     background-repeat: repeat;
     padding-top: 8em;
+    min-height: 100vh;
+    position: relative;
 }
 
 header {
     display: block;
-    position: absolute;
+    position: relative;
     background-color: #ffffff;
     width: 100%;
     min-width: 960px;
@@ -159,6 +165,7 @@ h3 {
 
 .img_text p {
     color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #portfolio_images {
@@ -166,4 +173,11 @@ h3 {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     grid-template-columns: 250px 250px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    align-content: start;
 }
