@@ -1,12 +1,52 @@
+header {
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 960px;
+    border-bottom: 2px solid #cccccc;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    margin-bottom: 4em;
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: repeat;
+    position: relative;
+    margin: 0;
+}
+
 .main_container {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
     background-color: #ffffff;
     width: 960px;
     overflow: hidden;
+    border: 1px solid #dddddd;
+}
+
+footer {
+    width: 100%;
+    height: 4em;
+    background-color: #777777;
+    position: fixed;
+    bottom: 0px;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer p {
+    position: relative;
+    font-size: 75%;
+    text-align: center;
+    color: #ffffff;
+    top: 2.8em;
 }
 
 .content {
@@ -14,10 +54,6 @@
     padding-left: 2em;
     padding-bottom: 2em;
     overflow: auto;
-}
-
-.content p {
-    font-size: 110%;
 }
 
 p {
@@ -38,36 +74,11 @@ h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-footer {
-    border-top: 6px solid #4aaaa5;
-    display: block;
-    width: 100%;
-    margin-right: 0%;
-    margin-left: 0%;
-    background-color: #666666;
-    min-width: 960px;
-    margin-top: 2em;
-    height: 100px;
-    position: relative;
-    bottom: 0;
-}
 
-footer p {
-    font-size: 75%;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 2em;
-    padding-bottom: 0.2em;
-    margin-bottom: 0%;
-    float: bottom;
-}
 
-body {
-    background-image: url("../images/background.png");
-    background-repeat: repeat;
-    padding-top: 8em;
-    position: relative;
-}
+
+
+
 
 header {
     display: block;
@@ -172,15 +183,4 @@ h3 {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     grid-template-columns: 250px 250px;
-}
-
-.grid {
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 0;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto;
-    align-content: start;
 }
