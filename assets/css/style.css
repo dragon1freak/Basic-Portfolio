@@ -63,7 +63,8 @@ p {
 
 #profile_picture {
     float: left;
-    padding-right: 1em;
+    margin-right: 1em;
+    border: 2px solid #cccccc;
 }
 
 h2 {
@@ -73,12 +74,6 @@ h2 {
     padding-bottom: 1em;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-
-
-
-
-
 
 header {
     display: block;
@@ -183,4 +178,13 @@ h3 {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
     grid-template-columns: 250px 250px;
+}
+
+#submit {
+    border: none;
+    padding: 1em;
+    margin-top: 0.5em;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 110%;
 }
