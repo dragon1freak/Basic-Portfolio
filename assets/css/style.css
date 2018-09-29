@@ -27,7 +27,7 @@ nav a {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: calc(100vh - 4em);
     display: block;
 }
 
@@ -65,7 +65,7 @@ footer {
     height: 4em;
     background-color: #777777;
     position: absolute;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     display: block;
     bottom: 0;
 }
