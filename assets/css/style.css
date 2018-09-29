@@ -178,9 +178,32 @@ h3 {
 
 #submit {
     border: none;
+    border-radius: 4px;
     padding: 1em;
     margin-top: 0.5em;
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 110%;
+    transition: 0.25s;
+}
+
+a{
+    transition: 0.25s;
+}
+
+.img_container img{
+    transform: translateZ(0);
+    transition: 0.25s;
+}
+
+a:hover {
+    color: #979797;
+}
+
+.img_container:hover img{
+    opacity: 0.8;
+}
+
+#submit:hover {
+    background-color: #5ac7c1;
 }
